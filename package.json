@@ -1,0 +1,28 @@
+{
+	"name": "ignr",
+	"version": "0.0.0",
+	"description": "",
+	"keywords": [
+		"git",
+		"gitignore",
+		"gitignore.io",
+		"ignore"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/z0al/ignr.git"
+	},
+	"license": "MIT",
+	"author": "Ahmed T. Ali <ah.tajelsir@gmail.com>",
+	"files": [
+		"dist"
+	],
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"browser": "dist/index.umd.js",
+	"types": "dist/index.d.ts",
+	"source": "src/index.ts",
+	"scripts": {
+		"test": "jest"
+	}
+}
