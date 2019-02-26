@@ -1,13 +1,13 @@
 {
 	"name": "ignr",
 	"version": "0.0.0-semantically-released",
-	"description": "",
+	"description": "Automagically generate a .gitignore file that fits your needs",
 	"keywords": [
+		".gitignore",
 		"git",
+		"git-ignore",
 		"gitignore",
 		"gitignore.io",
-		".gitignore",
-		"git-ignore",
 		"ignore"
 	],
 	"repository": {
@@ -17,13 +17,10 @@
 	"license": "MIT",
 	"author": "Ahmed T. Ali <ah.tajelsir@gmail.com>",
 	"files": [
-		"dist"
+		"bin",
+		"src"
 	],
-	"main": "dist/index.js",
-	"module": "dist/index.esm.js",
-	"browser": "dist/index.umd.js",
-	"types": "dist/index.d.ts",
-	"source": "src/index.ts",
+	"main": "src/index.js",
 	"scripts": {
 		"test": "jest"
 	},
