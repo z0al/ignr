@@ -2,7 +2,7 @@
 
 > Automagically generate a `.gitignore` file that fits your needs. Thanks to https://gitignore.io
 
-[![Build](https://badgen.net/travis/z0al/ignr)](https://travis-ci.org/z0al/ignr) [![NPM](https://badgen.net/npm/v/ignr)](https://badgen.net/npm/v/ignr) [![Node](https://badgen.net/npm/node/ignr)](https://badgen.net/npm/node/ignr) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![Travis (.org)](https://img.shields.io/travis/z0al/ignr.svg)](https://travis-ci.org/z0al/ignr) [![npm](https://img.shields.io/npm/v/ignr.svg)](https://npm.im/ignr) [![node](https://img.shields.io/node/v/ignr.svg)](https://npm.im/ignr) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat)](#contributors)
 
 ## Usage
 
