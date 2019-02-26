@@ -1,11 +1,13 @@
 {
 	"name": "ignr",
-	"version": "0.0.0",
+	"version": "0.0.0-semantically-released",
 	"description": "",
 	"keywords": [
 		"git",
 		"gitignore",
 		"gitignore.io",
+		".gitignore",
+		"git-ignore",
 		"ignore"
 	],
 	"repository": {
@@ -24,5 +26,15 @@
 	"source": "src/index.ts",
 	"scripts": {
 		"test": "jest"
+	},
+	"dependencies": {
+		"command-exists": "^1.2.8",
+		"globby": "^9.0.0",
+		"micromatch": "^3.1.10"
+	},
+	"devDependencies": {
+		"jest": "^24.1.0",
+		"microbundle": "^0.10.1",
+		"semantic-release": "^15.13.3"
 	}
 }

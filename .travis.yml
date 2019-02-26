@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - '10'
+  - '11'
+
+cache: npm
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+
+notifications:
+  email: false
