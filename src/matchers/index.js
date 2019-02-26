@@ -1,7 +1,14 @@
 // @ts-check
 
 // List of all available matchers
-const modules = new Map([['node', require('./node')]]);
+const modules = new Map([
+	['node', require('./node')],
+
+	// OSs
+	['linux', require('./linux')],
+	['windows', require('./windows')],
+	['macos', require('./macos')]
+]);
 
 /**
  * @param {Array<string>} files
