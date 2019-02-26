@@ -1,6 +1,3 @@
-// @ts-check
-const path = require('path');
-
 // Packages
 const glob = require('globby');
 
@@ -19,9 +16,5 @@ async function ignore(path) {
 		gitignore: true
 	});
 
-	const ids = await matchers(files);
-
-	console.log(ids);
+	return await matchers(files);
 }
-
-ignore(process.cwd());

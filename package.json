@@ -34,7 +34,6 @@
 	},
 	"devDependencies": {
 		"jest": "^24.1.0",
-		"microbundle": "^0.10.1",
 		"semantic-release": "^15.13.3"
 	}
 }
