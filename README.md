@@ -18,29 +18,16 @@ And BOOM 🔥. That's it.
 
 It runs a bunch of checks, for example, the existence of certain files in the current directory, installed programs ..etc to determine what things you might need to ignore. Then it simply fetches the necessary data from https://gitignore.io.
 
-Want an example? here how we check if you need to ignore Node.js stuff
+## Supported templates
 
-```javascript
-// files is an Array of all files avaiable in the target directory (doesn't include
-// those ignored by any existing .gitignore file(s))
-async function(files) {
-    // The pattern we test against
-    const pattern = '**/package.json';
+Currently we can detect and generate a `.gitignore` file for the following templates:
 
-    return match(files, pattern).length > 0;
-};
-```
-
-Later, we fetch data from `https://gitignore.io/api/node` if we found a match. That's all.
-
-## Supported generators
-
-Currently we can detect and generate a `.gitignore` file for the following:
-
-- [Linux](./src/matchers/linux.js)
-- [macOS](./src/matchers/macos.js)
-- [Node.js](./src/matchers/node.js)
-- [Windows](./src/matchers/windows.js)
+- Linux
+- macOS
+- Node.js
+- Vim
+- Visual Studio Code
+- Windows
 - What is missing? see [here](https://github.com/dvcs/gitignore/tree/master/templates)
 
 Contributions are welcome ❤️

@@ -7,7 +7,11 @@ const modules = new Map([
 	// OSs
 	['linux', require('./linux')],
 	['windows', require('./windows')],
-	['macos', require('./macos')]
+	['macos', require('./macos')],
+
+	// Editors
+	['vim', require('./vim')],
+	['visualstudiocode', require('./visualstudiocode')]
 ]);
 
 /**
