@@ -2,12 +2,13 @@
 
 // List of all available matchers
 const modules = new Map([
+	['go', require('./go')],
 	['node', require('./node')],
 
 	// OSs
 	['linux', require('./linux')],
-	['windows', require('./windows')],
 	['macos', require('./macos')],
+	['windows', require('./windows')],
 
 	// Editors
 	['vim', require('./vim')],

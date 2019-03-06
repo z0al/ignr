@@ -22,6 +22,7 @@ It runs a bunch of checks, for example, the existence of certain files in the cu
 
 Currently we can detect and generate a `.gitignore` file for the following templates:
 
+- Golang
 - Linux
 - macOS
 - Node.js
